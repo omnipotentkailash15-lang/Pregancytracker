@@ -6,7 +6,7 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 
 from helpers import calculate_week, get_trimester, get_days_remaining
-from utils.styles import inject_css
+from styles import inject_css
 from data.ayurveda_data import (
     get_weekly_data, get_dosha_info, get_seasonal_advice,
     MAAS_DATA, PRASAVA_TIPS, SATTVIC_FOODS

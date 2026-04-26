@@ -95,7 +95,7 @@ def page_home():
 
         name = st.text_input("माँ का नाम", value=st.session_state.name, placeholder="NEHA PANDEY")
         lmp = st.date_input(
-            "2026/03/18,
+            "2026/03/18",
             value=st.session_state.lmp_date or (date.today() - timedelta(weeks=10)),
             min_value=date.today() - timedelta(weeks=42),
             max_value=date.today()

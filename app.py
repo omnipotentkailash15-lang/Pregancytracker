@@ -93,9 +93,9 @@ def page_home():
         st.markdown("<div class='card glass-card'>", unsafe_allow_html=True)
         st.markdown("### 📝 आपकी जानकारी")
 
-        name = st.text_input("माँ का नाम", value=st.session_state.name, placeholder="आपका नाम यहाँ लिखें...")
+        name = st.text_input("माँ का नाम", value=st.session_state.name, placeholder="NEHA PANDEY")
         lmp = st.date_input(
-            "अंतिम माहवारी की तारीख (LMP)",
+            "2026/03/18,
             value=st.session_state.lmp_date or (date.today() - timedelta(weeks=10)),
             min_value=date.today() - timedelta(weeks=42),
             max_value=date.today()
